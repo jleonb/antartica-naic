@@ -24,8 +24,24 @@
         <link rel="shortcut icon" href="/favicons/favicon.ico">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <title>ANTÁRTICA</title>
+
+        <meta property="og:title" content="Antártica"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://www.antarticape.com"/>
+        <meta property="og:image" content="http://www.antarticape.com/img/ciudad-empresarial-3.jpg"/>
+
+        <title>ANT&#256;RTICA</title>
         <!-- Google Analytics -->
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-85210173-3', 'auto');
+              ga('send', 'pageview');
+
+        </script>
         <!-- Google Analytics END -->
     </head>
     <body>
@@ -36,7 +52,7 @@
                 <div class="container bloc-sm">
                     <nav class="navbar row">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="300px"/></a>
+                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="300px" class="img-responsive" /></a>
                             <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
                             <span class="sr-only">Móvil</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
@@ -44,7 +60,7 @@
                         <div class="collapse navbar-collapse navbar-1">
                             <ul class="site-navigation nav navbar-nav ">
                                 <li>
-                                    <a onclick="scrollToTarget('#inicio')" class="hvr-overline-from-left"><strong>Inicio</strong></a>
+                                    <a onclick="scrollToTarget('#bloc-1')" class="hvr-overline-from-left"><strong>Inicio</strong></a>
                                 </li>
                                 <li>
                                     <a onclick="scrollToTarget('#somos')" class="hvr-overline-from-left"><strong>Somos</strong></a>
@@ -67,31 +83,45 @@
                 </div>
             </div>
 
+            <div class="bloc full-width-bloc d-bloc bloc-1" id="bloc-1">
+                <div class="container bloc-md">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="carousel-1" class="carousel no-shadows slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/ciudad-empresarial-3.jpg" />
+                                        <div class="carousel-caption">
+                                        </div>
+                                    </div>
 
 
-            <div class="bloc full-width-bloc d-bloc" id="bloc-1">
-    <div class="container bloc-md">
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="carousel-1" class="carousel no-shadows slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="img/ciudad-empresarial-3bn.jpg" />
-                            <div class="carousel-caption">
+                                </div>
                             </div>
                         </div>
-                      
-                      
                     </div>
-
                 </div>
             </div>
-        </div>
-    </div>
-</div>
+
+            <div class="bloc full-width-bloc d-bloc bloc-1movil" id="bloc-1">
+                <div class="container bloc-md">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="carousel-1" class="carousel no-shadows slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/ciudad-empresarial-3movil.jpg" />
+                                        <div class="carousel-caption">
+                                        </div>
+                                    </div>
 
 
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- bloc-0 END -->
             <!-- <div class="bloc d-bloc tc-dark-lava bgc-white full-width-bloc" id="inicio">
                 <div class="container bloc-sm">
@@ -115,18 +145,18 @@
                                 Buscamos ser la mejor opción para inversionistas que busquen expertise y excelencia en un socio que les entregue confianza y orgullo a través de sus inversiones.
                             </p>
                             <div class="row">
-                                <div class="col-sm-7">
+                                <div class="col-md-7">
                                     <img src="img/equipo-antartica-3.jpg" class="img-responsive center-block" />
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-md-5">
                                     <p class=" text-justify mg-md copy">
-                                        Antártica es una empresa de "Private Equity Real Estate" que nace con el objetivo de estructurar y administrar negocios inmobiliarios. Buscamos preservar y aumentar el patrimonio de nuestros inversionistas diseñando negocios con retornos de acorde a sus niveles de riesgo y proyectos con alto valor agregado que puedan entregarle a las ciudades y sus habitantes una mejor calidad de vida.
+                                        Ant&#257;rtica es una empresa de "Private Equity Real Estate" que nace con el objetivo de estructurar y administrar negocios inmobiliarios. Buscamos preservar y aumentar el patrimonio de nuestros inversionistas diseñando negocios con retornos de acorde a sus niveles de riesgo y proyectos con alto valor agregado que puedan entregarle a las ciudades y sus habitantes una mejor calidad de vida.
                                     </p>
                                     <p class=" text-justify mg-md copy">
-                                       Creemos profundamente en la creación de valor en los proyectos inmobiliarios. Ponerse en el lugar de los usuarios, comprender el mercado, las tendencias, diseño, arquitectura, estructura financiera, entre otros, son los pilares para crear negocios sobresalientes. 
+                                        Creemos profundamente en la creación de valor en los proyectos inmobiliarios. Ponerse en el lugar de los usuarios, comprender el mercado, las tendencias, diseño, arquitectura, estructura financiera, entre otros, son los pilares para crear negocios sobresalientes.
                                     </p>
                                     <p class=" text-justify mg-md copy">
-                                        Antártica es una empresa de tercera generación y spin-off del grupo Hispano Chilena, compañía que con más de 20 años de experiencia en el mercado inmobiliario local y que cuenta con proyecto emblemáticos como los son Ciudad Empresarial y Piedra Roja (<a href="http://www.hispanochilena.cl" target="_blank">www.hispanochilena.cl</a>). 
+                                        Ant&#257;rtica es una empresa de tercera generación y spin-off del grupo Hispano Chilena, compañía que con más de 20 años de experiencia en el mercado inmobiliario local y que cuenta con proyecto emblemáticos como los son Ciudad Empresarial y Piedra Roja (<a href="http://www.hispanochilena.cl" target="_blank">www.hispano.cl</a>).
                                     </p>
                                 </div>
                             </div>
@@ -141,7 +171,18 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <h1 class="mg-md tc-white">
-                            <strong>"TO BE AN INVESTOR YOU MUST BE A BELIEVER IN A BETTER TOMORROW."</strong><br>
+                            <strong>"CON VISIÓN Y PERSEVERANCIA SE PUEDEN HACER PROYECTOS TRANSFORMADORES QUE GENEREN UN ALTO VALOR, TANTO PARA LA COMUNIDAD O CIUDAD DONDE SE DESARROLLEN, COMO TAMBIÉN PARA LOS ACCIONISTAS."</strong><br>
+                            </h1>
+                            <h2 class="mg-md tc-white">
+                            <strong>PATRICIO LABRA PÉREZ</strong><br>
+                            </h2>
+                            <h4 class="mg-md tc-white">
+                            <strong>Patricio Labra Pérez, 1924-2012, Presidente del Grupo Hispano y padre de Jorge Labra.</strong><br>
+                            </h4>
+                        </div>
+                        <!-- <div class="col-sm-12">
+                            <h1 class="mg-md tc-white">
+                            <strong>"PARA SER UN INVERSIONISTA DEBES CREER EN UN MAÑANA MEJOR."</strong><br>
                             </h1>
                             <h2 class="mg-md tc-white">
                             <strong>BENJAMIN GRAHAM</strong><br>
@@ -149,13 +190,13 @@
                             <h4 class="mg-md tc-white">
                             <strong>Benjamin Graham fue un inversionista, autor y profesor. Lo conocían como The Dean of Wall Street. <br>Graham es considerado el padre del Value Investing.</strong><br>
                             </h4>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <!-- cita-1 END -->
             <!-- equipo -->
-            <div class="bloc tc-dark-lava bgc-white" id="equipo">
+            <div class="bloc tc-dark-lava bgc-white equipo" id="equipo">
                 <div class="container bloc-lg">
                     <div class="row">
                         <div class="col-sm-12">
@@ -164,7 +205,7 @@
                             </h1>
                             <img src="img/faro.jpg" class="img-responsive center-block mg-md" width="30" />
                             <p class="text-center  mg-xl bajada">
-                                El equipo de Anártica cuenta con más de 100 años de experiencia combinada en la industria inmobiliaria y financiera.<br>
+                                El equipo de Ant&#257;rtica cuenta con más de 100 años de experiencia combinada en la industria inmobiliaria y financiera.<br>
                             </p>
                             <div class="row">
                                 <div class="col-sm-3">
@@ -178,8 +219,7 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <p class="copy text-justify">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-                                        sem. Nulla consequat massa quis enim.
+                                        Ingeniero Comercial de la Universidad de Chile con más de 30 años de experiencia. Comenzó trabajando en el banco Osorno. Luego, junto a un socio,  lideró la adquisición y administración de la empresa de autobuses Setra en España. En su llegada a Chile fundó y actualmente preside el Grupo Hispano, que en  20 años ha llegado a ser uno delos actores más importantes en la industria inmobiliaria chilena, con proyectos como Piedra Roja y Ciudad Empresarial. El Grupo ha invertido en los rubros tecnológicos, distribución, y actualmente provee cerramiento y muros cortinas a la construcción, con marcas líderes como Kommerling y Shuco.
                                     </p>
                                 </div>
                                 <div class="col-sm-3">
@@ -193,7 +233,7 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <p class="copy text-justify">
-                                        Ingeniero Comercial de la Universidad Católica de Chile y Master of Science in Real Estate Development (MsRED) de la Universidad de Columbia, Nueva York. Comenzó trabajando en investment banking para el banco español BBVA donde estuvo envuelto en operaciones de debt capital market y de M&A por sobre los USD 600 millones. En el Grupo Hispano fue jefe de la división de rentas para luego pasar a ser el gerente general de la división inmobiliaria, manejando activos por sobre los USD 200 MM. En el año 2016 funda Antártica, Private Equity dedicado a la estructuración y administración de negocios inmobiliarios.
+                                        Ingeniero Comercial de la Universidad Católica de Chile y Master of Science in Real Estate Development (MsRED) de la Universidad de Columbia, Nueva York. Comenzó trabajando en investment banking para el banco español BBVA donde participó en operaciones de debt capital market y de M&A por sobre los USD 600 millones. En el Grupo Hispano fue jefe de la división de rentas para luego pasar a ser el gerente general de la división inmobiliaria, manejando activos por sobre los USD 200 MM. En el año 2016 funda Ant&#257;rtica, Private Equity dedicado a la estructuración y administración de negocios inmobiliarios.
                                     </p>
                                 </div>
                             </div>
@@ -201,7 +241,7 @@
                             <div class="row">
                                 <div class="col-sm-3">
                                     <p class="copy text-justify">
-                                        Ingeniero Civil Industrial de la Universidad de Chile y Master of Science in Real Estate Development (MsRED) de la Universidad de Columbia, Nueva York. Cuenta con más de 8 años de experiencia en la industria inmobiliaria. A lo largo de su carrera se ha desempeñado como Jefe de Desarrollo en Grupo Patio, Portfolio Manager de Inversiones Inmobiliarias en EuroAmerica y más recientemente como Gerente de Inversiones en el Grupo Hispano. En el año 2016 funda Antártica, Private Equity dedicado a la estructuración y administración de negocios inmobiliarios.
+                                        Ingeniero Civil Industrial de la Universidad de Chile y Master of Science in Real Estate Development (MsRED) de la Universidad de Columbia, Nueva York. Cuenta con más de 8 años de experiencia en la industria inmobiliaria. A lo largo de su carrera se ha desempeñado como Jefe de Desarrollo en Grupo Patio, Portfolio Manager de Inversiones Inmobiliarias en EuroAmerica y más recientemente como Gerente de Inversiones en el Grupo Hispano. En el año 2016 funda Ant&#257;rtica, Private Equity dedicado a la estructuración y administración de negocios inmobiliarios.
                                     </p>
                                 </div>
                                 <div class="col-sm-3">
@@ -215,7 +255,7 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <p class="copy text-justify">
-                                        Ingeniero Comercial y Master of Science en Finanzas de la Universidad Adolfo Ibáñez. Con 3 años de experiencia en la industria inmobiliaria y financiera. Actualmente se desempeña como Analista Senior en Antártica Private Equity. Anteriormente fue Analista y Analista Senior en Finanzas de Walmart Chile Inmobiliaria participando en la evaluación financiera del Comité de Aprobación de nuevos locales junto con el Presupuesto, Forecast y Directorio de la Inmobiliaria.
+                                        Ingeniero Comercial y Master of Science en Finanzas de la Universidad Adolfo Ibáñez. Con 3 años de experiencia en la industria inmobiliaria y financiera. Actualmente se desempeña como Analista Senior en Ant&#257;rtica Private Equity. Anteriormente fue Analista y Analista Senior en Finanzas de Walmart Chile Inmobiliaria participando en la evaluación financiera del Comité de Aprobación de nuevos locales junto con el Presupuesto, Forecast y Directorio de la Inmobiliaria.
                                     </p>
                                 </div>
                                 <div class="col-sm-3">
@@ -244,7 +284,6 @@
                                         Ingeniero Comercial de la Universidad Católica de Chile. Se desempeñó durante 20 años como Gerente y Director en las diversas compañías del Grupo Claro. En los principales cargos estuvo en  Viña Santa Rita, Cristalerías de Chile, Sud Americana de Vapores, Elecmetal y Saam, aunando una vasta experiencia ejecutiva. Posteriormente se hizo cargo de la conceptualización y  ejecución del desarrollo inmobiliario Piedra Roja, proyecto de expansión urbana de más de 1.000 hectáreas. Más recientemente fue Gerente General de Inmobiliaria Manquehue.  Hoy preside el directorio de Piedra Roja y ejerce como asesor y director en empresas de diversos sectores.
                                     </p>
                                 </div>
-
                                 <!-- juan manuel silva -->
                                 <div class="col-sm-3">
                                     <img src="img/team/juan_manuel_silva.jpg" class="img-responsive center-block mg-md" />
@@ -261,7 +300,6 @@
                                     </p>
                                 </div>
                                 <!-- juan manuel silva -->
-
                             </div>
                             <br><br>
                             <div class="row">
@@ -281,8 +319,7 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <p class="copy text-justify">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-                                        sem. Nulla consequat massa quis enim.
+                                        Ingeniero Civil mención Construcción de la Universidad de Chile y Diplomado en Finanzas de la misma universidad. Cuenta con más de 20 años de experiencia en la industria inmobiliaria. A lo largo de su carrera se ha desempeñado como ingeniero de obras y desde el año 1998 como gerente de administración y finanzas del Grupo Hispano, tanto en sus áreas inmobiliarias como industrial. En el ámbito inmobiliario ha ejecutado transacciones y financiamientos por sobre los USD 500 millones.
                                     </p>
                                 </div>
                                 <div class="col-sm-3">
@@ -300,6 +337,176 @@
                 </div>
             </div>
             <!-- equipo END -->
+                        <!-- equipo movil -->
+            <div class="bloc tc-dark-lava bgc-white equipomovil" id="equipo">
+                <div class="container bloc-lg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="text-center mg-md tc-dark-lava">
+                            <strong>EQUIPO</strong>
+                            </h1>
+                            <img src="img/faro.jpg" class="img-responsive center-block mg-md" width="30" />
+                            <p class="text-center  mg-xl bajada">
+                                El equipo de Ant&#257;rtica cuenta con más de 100 años de experiencia combinada en la industria inmobiliaria y financiera.<br>
+                            </p>
+                            <div class="row">
+
+                                <!-- jorge labra -->
+                                <div class="col-sm-3">
+                                    <img src="img/team/labra.jpg" class="img-responsive center-block mg-md" width="90%" />
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Jorge Labra</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-gainsboro">
+                                    <strong>President</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="copy text-justify">
+                                        Ingeniero Comercial de la Universidad de Chile con más de 30 años de experiencia. Comenzó trabajando en el banco Osorno. Luego, junto a un socio,  lideró la adquisición y administración de la empresa de autobuses Setra en España. En su llegada a Chile fundó y actualmente preside el Grupo Hispano, que en  20 años ha llegado a ser uno delos actores más importantes en la industria inmobiliaria chilena, con proyectos como Piedra Roja y Ciudad Empresarial. El Grupo ha invertido en los rubros tecnológicos, distribución, y actualmente provee cerramiento y muros cortinas a la construcción, con marcas líderes como Kommerling y Shuco.
+                                    </p>
+                                </div>
+                                <!-- jorge labra -->
+
+                                <!-- benjamin labra -->
+                                <div class="col-sm-3">
+                                    <img src="img/team/benjamin_labra.jpg" class="img-responsive center-block mg-md" width="90%" />
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Benjamín Labra</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-black tc-gainsboro">
+                                    <strong>Managing Partner</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="copy text-justify">
+                                        Ingeniero Comercial de la Universidad Católica de Chile y Master of Science in Real Estate Development (MsRED) de la Universidad de Columbia, Nueva York. Comenzó trabajando en investment banking para el banco español BBVA donde participó en operaciones de debt capital market y de M&A por sobre los USD 600 millones. En el Grupo Hispano fue jefe de la división de rentas para luego pasar a ser el gerente general de la división inmobiliaria, manejando activos por sobre los USD 200 MM. En el año 2016 funda Ant&#257;rtica, Private Equity dedicado a la estructuración y administración de negocios inmobiliarios.
+                                    </p>
+                                </div>
+                                <!-- benjamin labra -->
+
+                            </div>
+                            <br><br>
+                            <div class="row">
+
+                                <!-- nicolás knockaert -->
+                                <div class="col-sm-3">
+                                    <img src="img/team/retocadas/nicolas_knockaert.jpg" class="img-responsive center-block mg-md"  width="90%"/>
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Nicolás Knockaert</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-gainsboro">
+                                    <strong>Managing Partner</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="copy text-justify">
+                                        Ingeniero Civil Industrial de la Universidad de Chile y Master of Science in Real Estate Development (MsRED) de la Universidad de Columbia, Nueva York. Cuenta con más de 8 años de experiencia en la industria inmobiliaria. A lo largo de su carrera se ha desempeñado como Jefe de Desarrollo en Grupo Patio, Portfolio Manager de Inversiones Inmobiliarias en EuroAmerica y más recientemente como Gerente de Inversiones en el Grupo Hispano. En el año 2016 funda Ant&#257;rtica, Private Equity dedicado a la estructuración y administración de negocios inmobiliarios.
+                                    </p>
+                                </div>
+                                <!-- nicolás knockaert -->
+
+                                <!-- francisco lenti -->
+                                 <div class="col-sm-3">
+                                    <img src="img/team/lenti.jpg" class="img-responsive center-block mg-md"  width="90%"/>
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Francisco Lenti</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-black tc-gainsboro">
+                                    <strong>Senior Analyst</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="copy text-justify">
+                                        Ingeniero Comercial y Master of Science en Finanzas de la Universidad Adolfo Ibáñez. Con 3 años de experiencia en la industria inmobiliaria y financiera. Actualmente se desempeña como Analista Senior en Ant&#257;rtica Private Equity. Anteriormente fue Analista y Analista Senior en Finanzas de Walmart Chile Inmobiliaria participando en la evaluación financiera del Comité de Aprobación de nuevos locales junto con el Presupuesto, Forecast y Directorio de la Inmobiliaria.
+                                    </p>
+                                </div>
+                                <!-- francisco lenti -->
+                            </div>
+                            <br><br>
+                            <div class="row">
+                                <!-- jorge lama -->
+                                <div class="col-sm-3">
+                                    <img src="img/team/jorge_lama.jpg" class="img-responsive center-block mg-md"  width="90%" />
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Jorge Lama</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-gainsboro">
+                                    <strong>Advisor</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="text-justify copy">
+                                        Ingeniero Comercial de la Universidad Católica de Chile. Se desempeñó durante 20 años como Gerente y Director en las diversas compañías del Grupo Claro. En los principales cargos estuvo en  Viña Santa Rita, Cristalerías de Chile, Sud Americana de Vapores, Elecmetal y Saam, aunando una vasta experiencia ejecutiva. Posteriormente se hizo cargo de la conceptualización y  ejecución del desarrollo inmobiliario Piedra Roja, proyecto de expansión urbana de más de 1.000 hectáreas. Más recientemente fue Gerente General de Inmobiliaria Manquehue.  Hoy preside el directorio de Piedra Roja y ejerce como asesor y director en empresas de diversos sectores.
+                                    </p>
+                                </div>
+                                <!-- jorge lama -->
+
+                                <!-- juan manuel silva -->
+                                <div class="col-sm-3">
+                                    <img src="img/team/juan_manuel_silva.jpg" class="img-responsive center-block mg-md" width="90%" />
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Juan Manuel Silva</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-black tc-gainsboro">
+                                    <strong>Advisor</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="copy text-justify">
+                                        Ingeniero Comercial de la Universidad Católica de Chile. Durante 25 años se desempeña como Gerente de Empresas, Normalización y Negocios Inmobiliarios del Banco Sud Americano (hoy Scotiabank), y al mismo tiempo participa durante 10 años del Consejo Asesor del Fondo Inmobiliario Independencia. Posteriormente, asume durante 15 años la Dirección de los negocios inmobiliarios de Grupo Claro, actuando paralelamente como Director del Fondo Inmobiliario de Moneda Asset Management. En la actualidad preside el Directorio de Ciudad Empresarial y participa del Directorio y Consejo de Administración de varias sociedades vinculadas al giro inmobiliario.
+                                    </p>
+                                </div>
+                                <!-- juan manuel silva -->
+                            </div>
+                            <br><br>
+                            <div class="row">
+                                <!-- ricardo ramirez -->
+                                <div class="col-sm-3">
+                                    <img src="img/team/ricardo_ramirez.jpg" class="img-responsive center-block mg-md"  width="90%"/>
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Ricardo Ramírez</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-gainsboro">
+                                    <strong>Advisor</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="copy text-justify">
+                                        Ingeniero Civil de la Pontificia Universidad Católica de Chile y MBA del ESE, con 13 años de experiencia en la industria inmobiliaria y construcción. Responsable de la búsqueda, generación, desarrollo y explotación del negocio inmobiliario en las comunas más relevantes del gran Santiago con un portfolio de proyectos de 4,5 MM UF por año en promedio con precios de venta desde las 1.500 UF a las 33.000 UF. Dentro de su experiencia ejecutiva, algunos de los cargos ejercidos son Gerente Inmobiliario en Inmobiliaria Aconcagua, Director Comercial y Técnico dentro de la misma compañía.
+                                    </p>
+                                </div>
+                                <!-- ricardo ramirez -->
+
+                                <!-- pablo elgueta -->
+                                <div class="col-sm-3">
+                                    <img src="img/team/retocadas/pablo_elgueta.jpg" class="img-responsive center-block mg-md"  width="90%"/>
+                                    <h3 class="mg-sm tc-black">
+                                    <strong>Pablo Elgueta</strong>
+                                    </h3>
+                                    <h4 class="mg-md tc-black tc-gainsboro">
+                                    <strong>Advisor</strong>
+                                    </h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="copy text-justify">
+                                        Ingeniero Civil mención Construcción de la Universidad de Chile y Diplomado en Finanzas de la misma universidad. Cuenta con más de 20 años de experiencia en la industria inmobiliaria. A lo largo de su carrera se ha desempeñado como ingeniero de obras y desde el año 1998 como gerente de administración y finanzas del Grupo Hispano, tanto en sus áreas inmobiliarias como industrial. En el ámbito inmobiliario ha ejecutado transacciones y financiamientos por sobre los USD 500 millones.
+                                    </p>
+                                </div>
+                                <!-- pablo elgueta -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- equipo movil -->
+
+
+
+
+
+
             <!-- bloc-6 -->
             <div class="bloc bgc-white l-bloc" id="valores">
                 <div class="container bloc-lg">
@@ -319,30 +526,29 @@
                                 <span class="fa fa-handshake-o icon-round icon-md icon-dark-lava"></span>
                             </div>
                             <h3 class="text-center mg-md tc-dark-lava">
-                                Confianza
+                            Confianza
                             </h3>
                             <p class="text-center copy tc-dark-lava">
                                 Nacemos de una empresa con más de 20 años de historia y nuestro equipo tienen amplia trayectoria en la industria, sabemos que la confianza es el pilar fundamental de cualquier negocio.
-                            </p>    
+                            </p>
                         </div>
                         <div class="col-sm-4">
                             <div class="text-center">
                                 <span class="fa fa-pie-chart icon-round icon-md icon-dark-lava"></span>
                             </div>
                             <h3 class="text-center mg-md tc-dark-lava">
-                                Expertise
+                            Expertise
                             </h3>
                             <p class="text-center copy tc-dark-lava">
-                                Nuestro equipo es especialista en negocios inmobiliarios y aprendemos continuamente de proyectos exitosos, como no tanto, buscando entender una sociedad en transformación. Nos asesoramos con los mejores.
-                            </p>    
+                                Miramos y aprendemos continuamente de las variables claves de proyectos exitosos, buscando entender a nuestros clientes como una comunidad en constante transformación. Nuestro equipo es especialista en negocios inmobiliarios y nos asesoramos con los mejores.
+                            </p>
                         </div>
                         <div class="col-sm-4">
-                            
                             <div class="text-center">
                                 <span class="fa fa-language icon-round icon-md icon-dark-lava"></span>
                             </div>
                             <h3 class="text-center mg-md tc-dark-lava">
-                                Creatividad
+                            Creatividad
                             </h3>
                             <p class="text-center copy tc-dark-lava">
                                 Buscamos proyectos y soluciones excepcionales que puedan prosperar frente a los desafíos de los nuevos mercados y tendencias.
@@ -358,13 +564,13 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <h1 class="mg-md tc-white">
-                            <strong>"AT THE END, YOU´RE DIFFERENT OR YOU´RE CHEAPER"</strong><br>
+                            <strong>"AL FINAL, O ERES DIFERENTE O ERES BARATO"</strong><br>
                             </h1>
                             <h2 class="mg-md tc-white">
                             <strong>GUY KAWASAKI</strong><br>
                             </h2>
                             <h4 class="mg-md tc-white">
-                            <strong>Guy Kawasaki es un reconocido especialista en el ámbito de las nuevas tecnologías y el marketing. <br>En esta última actividad fue responsable de Macintosh como evangelista.</strong><br>
+                            <strong>Guy Kawasaki es un reconocido especialista en el ámbito de las nuevas tecnologías y el marketing. <br>En Apple fue encargado del área de marketing para su línea Macintosh.</strong><br>
                             </h4>
                         </div>
                     </div>
@@ -423,7 +629,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <h1 class="mg-md tc-white">
-                                        <strong>"NEVER COUNT ON MAKING A GOOD SALE. HAVE THE PURCHASE PRICE BE SO ATTRACTIVE THAT EVEN A MEDIOCRE SALE GIVES GOOD RESULTS"</strong><br>
+                                        <strong>"NUNCA SE DEBE ASUMIR QUE SE VA A HACER UNA BUENA VENTA, EL PRECIO DE COMPRA DEBE SER TAN ATRACTIVO QUE INCLUSO UNA VENTA MEDIOCRE VA A GENERAR BUENOS RESULTADOS"</strong><br>
                                         </h1>
                                         <h2 class="mg-md tc-white">
                                         <strong>WARREN BUFFET</strong><br>
@@ -463,13 +669,13 @@
                                             Información de Contacto
                                             </h3>
                                             <h3>
-                                            Antártica <br>
+                                            Ant&#257;rtica <br>
                                             </h3>
                                             <p>
                                                 Av. del Parque #5275, Piso 5 <br>
                                             </p>
                                             <p>
-                                                Ciudad Empresarial, Huechuraba, Santiago
+                                                Ciudad Empresarial, Huechuraba, Santiago, Chile
                                             </p>
                                             <p>
                                                 T: +562 2940 5000
@@ -500,12 +706,17 @@
                         <!-- ScrollToTop Button END-->
                         <!-- Footer - bloc-12 -->
                         <div class="bloc bgc-dark-lava d-bloc" id="bloc-12">
-                            <div class="container bloc-md">
+                            <div class="container bloc-md2">
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <h5 class="mg-md tc-white">
-                                        <strong>© 2016 ANTÁRTICA</strong>
+                                        <h5 class="mg-lg tc-white">
+                                        <strong>© 2017 ANT&#256;RTICA</strong>
                                         </h5>
+                                        <a href="http://www.naic.cl" target="_blank" class="text-center">
+                                          <h6>
+                                            Desarrollado por NAIC
+                                          </h6>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

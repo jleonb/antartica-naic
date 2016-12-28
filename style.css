@@ -1,8 +1,3 @@
-/*-----------------------------------------------------------------------------------
-	    antartica
-        Built with Blocs
------------------------------------------------------------------------------------*/
-
 body{
 	margin:0;
 	padding:0;
@@ -15,7 +10,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
-#page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
+/*#page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}*/
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -50,6 +45,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .bloc-md{
 	padding:50px;
+}
+.bloc-md2{
+	padding:50px 50px 10px 50px;
 }
 .bloc-sm{
 	padding:20px 50px;
@@ -186,6 +184,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: 1em;
 }
+#bloc-12 {
+	display: inline-block;
+}
+#bloc-12 a {
+	color: white;
+}
 #somos p{
 	font-size: 17px;
 	line-height: 26px;
@@ -197,6 +201,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #equipo h4 {
 	border-bottom: 1px solid #AFBBC2;
 }
+#equipomovil p{
+	font-size: 18px;
+	line-height: 26px;
+}
+#equipomovil h4 {
+	border-bottom: 1px solid #AFBBC2;
+}
 #proyectos p {
 	color: white;
 	font-size: 1.3em;
@@ -205,7 +216,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 17px;
 	line-height: 26px;
 }
-
+#somos small {
+	font-size: 0.8em;
+	color: gray;
+}
 /* = NavBar
 -------------------------------------------------------------- */
 
@@ -599,6 +613,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* = Mobile adjustments
 -------------------------------------------------------------- */
+@media (max-width: 992px){
+	#bloc-0 img {
+		width: 200px;
+	}
+
+}
 @media (max-width: 1024px)
 {
     .bloc{
@@ -613,13 +633,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
 @media (max-width: 768px)
 {
+    #bloc-11 .col-sm-8 {
+    	display: none;
+    }
+    .equipo {
+    	display: none;
+    }
+    .bloc-1 {
+    	display: none;
+    }
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
 }
+@media (min-width: 767px){
+	.equipomovil {
+		display: none;
+	}
+	.bloc-1movil {
+		display: none;
+	}
+
+}
 @media (max-width: 767px)
 {
-    .page-container{
+	    .page-container{
         overflow-x: hidden;
         position:relative;
     }
